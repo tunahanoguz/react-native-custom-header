@@ -1,0 +1,34 @@
+{
+  "name": "react-native-custom-header",
+  "version": "1.0.0",
+  "description": "A simple custom header component for React Native.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tunahanoguz/react-native-custom-header.git"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "react native component",
+    "react native header component",
+    "react native header",
+    "react native custom header",
+    "react native gradient header"
+  ],
+  "author": "Tunahan Oğuz",
+  "license": "MIT",
+  "homepage": "https://github.com/tunahanoguz/react-native-custom-header#readme",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "prop-types": "*",
+    "react-native-linear-gradient": "*",
+    "react-native-svg": "*"
+  }
+}
