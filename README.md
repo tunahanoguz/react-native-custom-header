@@ -49,6 +49,23 @@ Props table for rightButtons array:
 
 ## Usage
 ```
+// right buttons array
+const rightButtons = [
+        {
+            id: 1,
+            color: 'rgba(255, 255, 255, 0.15)',
+            content: <Text>🤙</Text>,
+            action: () => alert('First Right Button'),
+        },
+        {
+            id: 2,
+            color: 'rgba(255, 255, 255, 0.15)',
+            content: <Text>🖐️</Text>,
+            action: () => alert('Second Right Button'),
+        },
+    ];
+
+// render
 <View style={{flex: 1}}>
 
     // Header Component
